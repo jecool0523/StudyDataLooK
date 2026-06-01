@@ -1,0 +1,10 @@
+{
+  "task": "binary_harmful_expression",
+  "source_dataset": "Dasool/KoMultiText",
+  "base_model": "beomi/KcELECTRA-base",
+  "label_rule": "harmful=1 if profanity==1 or any bias label==1",
+  "labels": {
+    "0": "clean",
+    "1": "harmful"
+  }
+}
